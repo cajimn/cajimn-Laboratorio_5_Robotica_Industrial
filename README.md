@@ -11,15 +11,13 @@
 
 ## Procedimiento
 
-> ## Determinar parámetros DH
-Se determina los TCP de todas lasartivulaciones de robot, como se ve en la imagen acontinuación
-![WhatsApp Image 2022-10-14 at 4 14 28 PM](https://user-images.githubusercontent.com/68668422/196011269-9272b426-2255-4be2-a015-2875ad0d804b.jpeg)
- se obtienen las siguientes gráficas en matlab para las posicones:
- ![image](https://user-images.githubusercontent.com/52113892/196318127-a16b69b4-9ba3-4afc-86ff-d3ce5ddeb895.png)
-![image](https://user-images.githubusercontent.com/52113892/196318174-95260471-9424-4c69-a7e2-2b637bef7977.png)
-![image](https://user-images.githubusercontent.com/52113892/196318229-b8997ad2-596f-48c0-ac6d-cf6179339836.png)
-![image](https://user-images.githubusercontent.com/52113892/196318265-7e46e7af-076d-4350-832b-42d2df2d41dc.png)
-![image](https://user-images.githubusercontent.com/52113892/196318302-408174c1-ff77-4374-b1e4-ecdb24dd2dcb.png)
+> ## Cinemática directa
+Debido a problemas con el robot, se debió usar un robot diferente al que se uso en la anterior práctica de laboratorio, por lo tanto la cinemática directa cambia. Se determina la tabla de parámetros DH del robot
+
+
+> ## Cinemática inversa
+Se determina la cinemática inversa del robot:
+
 > ## Programa Python.
 Se realiza la conexión entre dinamyxel y el programa creado en python, el cuál ejecuta con teclas, cada una de las posiciones establecidas en la guía de laboratorio. 
 
