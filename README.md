@@ -18,10 +18,10 @@ Debido a problemas con el robot, se debió usar un robot diferente al que se uso
 > ## Cinemática inversa
 Se determina la cinemática inversa del robot:
 
-![image](https://user-images.githubusercontent.com/51938754/199284619-19bdb4ea-88b3-4955-ad9b-fe46bb9893e9.png)
+
 
 ![image](https://user-images.githubusercontent.com/51938754/199286921-473f9334-708a-4875-b833-a008dd02b2fe.png)
-
+![image](https://user-images.githubusercontent.com/51938754/199287092-8b832403-7df1-438d-b329-453251a35676.png)
 
 > ## Programa Python.
 Se realiza la conexión entre dinamyxel y el programa creado en python, el cuál ejecuta con teclas, cada una de las posiciones establecidas en la guía de laboratorio. 
