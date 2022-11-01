@@ -18,9 +18,9 @@ Debido a problemas con el robot, se debió usar un robot diferente al que se uso
 > ## Cinemática inversa
 Se determina la cinemática inversa del robot:
 
-![image](https://user-images.githubusercontent.com/51938754/199284619-19bdb4ea-88b3-4955-ad9b-fe46bb9893e9.png =100x20)
+![image](https://user-images.githubusercontent.com/51938754/199284619-19bdb4ea-88b3-4955-ad9b-fe46bb9893e9.png)
 
-![image](https://user-images.githubusercontent.com/51938754/199284504-9126cdfe-6def-4ad2-9f52-db73e5216b20.png)
+![image](https://user-images.githubusercontent.com/51938754/199286921-473f9334-708a-4875-b833-a008dd02b2fe.png)
 
 
 > ## Programa Python.
