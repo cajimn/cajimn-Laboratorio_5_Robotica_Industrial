@@ -38,10 +38,6 @@ Se lee desde el programa de Python un archivo excel que contiene las coordenadas
 
 Como se realizó en el laboratorio anterior, se realiza la conexión con el robot desde la terminal y se ejecuta desde VS Code el código xxxx que se encuentra en la carpeta scripts del workspace.
 
-https://user-images.githubusercontent.com/51938754/199379851-67bee821-b498-4e3e-b90a-09edcf37729b.mp4
-
-
-
 Este código calcula la cinemática inversa del robot, de acuerdo a las ecuaciones que se hallaron anteriormente, dadas unas coordenadas x, y y z del gripper que sujeta la herramienta. Estas coordenadas se leen del archivo de excel y se encuentran los valores articulares correspondientes a ese punto dado.
 
 Se usa el tópico joint_trajectory y se crea su respectivo Publisher para actualizar las posiciones de las articulaciones del robot. El programa permite que el robot realice las rutinas deseadas presionando una tecla determinada, cada tecla dibuja una figura o realiza una trayectoria distinta. 
