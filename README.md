@@ -34,16 +34,26 @@ Se determina la expresión para cada uno de los parámetros articulares:
 
 > ## Programa Python.
 
+Se lee desde el programa de Python un archivo excel que contiene las coordenadas de todos los puntos de las correspondiente trayectorias (HOME, Recoger herramienta, Dibujar triángulo, Dibujar círculo, Dibujar líneas, Dibujar figura y Dibujar letras).
+
+Como se realizó en el laboratorio anterior, se realiza la conexión con el robot desde la terminal y se ejecuta desde VS Code el código xxxx que se encuentra en la carpeta scripts del workspace.
+
+Este código calcula la cinemática inversa del robot, de acuerdo a las ecuaciones que se hallaron anteriormente, dadas unas coordenadas x, y y z del gripper que sujeta la herramienta. Estas coordenadas se leen del archivo de excel y se encuentran los valores articulares correspondientes a ese punto dado.
+
+Se usa el tópico joint_trajectory y se crea su respectivo Publisher para actualizar las posiciones de las articulaciones del robot. El programa permite que el robot realice las rutinas deseadas presionando una tecla determinada, cada tecla dibuja una figura o realiza una trayectoria distinta. 
 
 > ## Resultado 
 
-En este primer video se observa la rutina donde se dibuja el arco interior 
+En este primer video se observa la rutina donde se dibuja el arco interior:
 
-https://user-images.githubusercontent.com/68668422/196011297-8d86ad41-814a-4f38-b1d9-553ff0dfab27.mp4
+https://user-images.githubusercontent.com/51938754/199373413-74f3de17-c9c1-4e06-bd0b-d6616e0f6d17.mp4
 
-Se realiza el movimiento hasta una posición deseada desde HOME articulación por articulación. Se sigue observando el desfase que tiene el robot.
+Luego se observa la rutina donde dibuja el arco exterior:
 
-https://user-images.githubusercontent.com/68668422/196011293-479089bc-00ba-41f3-8f41-30927088b858.mp4
+https://user-images.githubusercontent.com/51938754/199373669-35b49364-7ce9-48cf-a89f-e8f7db9a2c91.mp4
 
 
-Se puede ver que las posicones en la vida real se asemejan bastante a lo obtenido en las gráficas de matlab, los errores obtenidos pueden ser principalmente por errores de medición de los parámetros del robot. 
+
+
+
+
