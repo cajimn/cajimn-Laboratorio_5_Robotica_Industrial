@@ -38,22 +38,48 @@ Se lee desde el programa de Python un archivo excel que contiene las coordenadas
 
 Como se realizó en el laboratorio anterior, se realiza la conexión con el robot desde la terminal y se ejecuta desde VS Code el código xxxx que se encuentra en la carpeta scripts del workspace.
 
+https://user-images.githubusercontent.com/51938754/199379851-67bee821-b498-4e3e-b90a-09edcf37729b.mp4
+
+
+
 Este código calcula la cinemática inversa del robot, de acuerdo a las ecuaciones que se hallaron anteriormente, dadas unas coordenadas x, y y z del gripper que sujeta la herramienta. Estas coordenadas se leen del archivo de excel y se encuentran los valores articulares correspondientes a ese punto dado.
 
 Se usa el tópico joint_trajectory y se crea su respectivo Publisher para actualizar las posiciones de las articulaciones del robot. El programa permite que el robot realice las rutinas deseadas presionando una tecla determinada, cada tecla dibuja una figura o realiza una trayectoria distinta. 
 
 > ## Resultado 
 
-En este primer video se observa la rutina donde se dibuja el arco interior:
+En este primer video se observa la rutina para recoger la herramienta y luego ir a HOME:
+
+https://user-images.githubusercontent.com/51938754/199379404-7f4cc06b-4e58-4fb1-87da-129fbe8048c5.mp4
+
+Arco interior:
 
 https://user-images.githubusercontent.com/51938754/199373413-74f3de17-c9c1-4e06-bd0b-d6616e0f6d17.mp4
 
-Luego se observa la rutina donde dibuja el arco exterior:
+Arco exterior:
 
 https://user-images.githubusercontent.com/51938754/199373669-35b49364-7ce9-48cf-a89f-e8f7db9a2c91.mp4
 
+Triángulo:
 
+https://user-images.githubusercontent.com/51938754/199379141-fe1fee2a-66f3-469c-a0eb-ad720ae1c369.mp4
 
+Círculo:
 
+https://user-images.githubusercontent.com/51938754/199380797-1a59e92f-1b45-48d2-8f4f-aaf37511503a.mp4
+
+https://user-images.githubusercontent.com/51938754/199380801-d33f0277-ec2e-4fb4-a786-806454d8fef5.mp4
+
+Líneas:
+
+https://user-images.githubusercontent.com/51938754/199379321-fef32d86-491c-4b07-8b0a-954495fc707f.mp4
+
+Figura:
+
+https://user-images.githubusercontent.com/51938754/199379623-e1eb068b-9b31-47e8-9576-100b9abf9d94.mp4
+
+Letras CIJ:
+
+https://user-images.githubusercontent.com/51938754/199379636-80a6fdc4-39ba-4565-b86f-33aa9c655bf5.mp4
 
 
