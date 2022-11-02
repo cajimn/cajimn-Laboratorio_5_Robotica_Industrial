@@ -36,7 +36,7 @@ Se determina la expresión para cada uno de los parámetros articulares:
 
 Se lee desde el programa de Python un archivo excel que contiene las coordenadas de todos los puntos de las correspondiente trayectorias (HOME, Recoger herramienta, Dibujar triángulo, Dibujar círculo, Dibujar líneas, Dibujar figura y Dibujar letras).
 
-Como se realizó en el laboratorio anterior, se realiza la conexión con el robot desde la terminal y se ejecuta desde VS Code el código xxxx que se encuentra en la carpeta scripts del workspace.
+Como se realizó en el laboratorio anterior, se realiza la conexión con el robot desde la terminal y se ejecuta desde VS Code el código [jointPub5](scripts/jointPub_Lab5.py) que se encuentra en la carpeta scripts del workspace.
 
 Este código calcula la cinemática inversa del robot, de acuerdo a las ecuaciones que se hallaron anteriormente, dadas unas coordenadas x, y y z del gripper que sujeta la herramienta. Estas coordenadas se leen del archivo de excel y se encuentran los valores articulares correspondientes a ese punto dado.
 
