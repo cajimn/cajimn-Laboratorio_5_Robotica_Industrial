@@ -78,4 +78,5 @@ Letras CIJ:
 
 https://user-images.githubusercontent.com/51938754/199379636-80a6fdc4-39ba-4565-b86f-33aa9c655bf5.mp4
 
-
+Se puede evidenciar en estos resultados que las trayectorias que se querían lograr salieron distorsionadas o erróneas al momento de utilizar el robot, consideramos que esto se debe a que el robot no presenta un buen funcionamiento, además este presentaba varias fallas como sobrecalentamiento de motores o fallos en la conexión
+Creemos que la práctica a pesar de esto se realizó de buena manera, como se puede ver la cinemática inversa quedó bien, y se practicó la teoría vista en clase 
